@@ -1,0 +1,3 @@
+variant,rouge_l,correctness,faithfulness,context_hit,retrieval_s,generation_s,total_s
+no_rag,0.108,,,,0.0,10.17,10.17
+rag_hybrid_rerank,0.251,,,0.675,1.987,36.507,38.495

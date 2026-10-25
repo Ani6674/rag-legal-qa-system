@@ -1,0 +1,18 @@
+File: results\generation_llama3.2_3b_draft_scored_checked.csv
+Rows without a manual score: 0 of 80
+
+=== Manual grading by variant ===
+                    n  mean_score_0to2  pct_correct  pct_partly_or_better  pct_wrong  rouge_l  pct_abstained  total_s
+variant                                                                                                              
+no_rag             40             0.62         15.0                  47.5       52.5     0.11            0.0    10.17
+rag_hybrid_rerank  40             1.12         47.5                  65.0       35.0     0.25           10.0    38.49
+
+=== Paired comparison on 40 questions: rag_hybrid_rerank vs no_rag ===
+rag_hybrid_rerank better: 17 | worse: 6 | same: 17
+
+=== RAG answer quality when the right passage was / was not retrieved ===
+(context_hit 1 = evidence retrieved, 0 = missed)
+                                n  mean_score
+variant           context_hit                
+rag_hybrid_rerank 0.0          13        0.15
+                  1.0          27        1.59

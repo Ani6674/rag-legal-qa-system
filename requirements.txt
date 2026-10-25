@@ -1,0 +1,15 @@
+pypdf
+sentence-transformers
+# faiss-cpu  (optional - code falls back to NumPy if not installed)
+rank-bm25
+numpy
+pandas
+matplotlib
+requests
+rouge-score
+bert-score
+streamlit
+# LLM backends (install what you use)
+anthropic
+transformers
+accelerate
